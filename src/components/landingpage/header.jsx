@@ -21,7 +21,7 @@ export const Header = ({ showDialog, setShowDialog }) => {
     <div className=" flex flex-col md:flex-row items-center justify-center bg-gradient-to-br from-neutral-100 via-neutral-100 to-neutral-200 h-screen">
       <div className="flex-col pb-12 w-full px-12 justify-center items-center">
         <h1 className={`text-xl  md:text-3xl pt-20 font-bold text-neutral-700`}>
-          What if you could take ChatGPT Plus everywhere with you?
+          What if you could take ChatGPT everywhere with you?
         </h1>
         <h2
           className={`text-lg  md:text-2xl pt-6 md:pt-8 font-medium text-neutral-700`}>
