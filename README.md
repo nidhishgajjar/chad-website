@@ -1,6 +1,4 @@
-# Adding time to people's lives
+# Get Chad App
 
 Website
 - Landing Page
-- Quick Search
-# getchadappwebsite

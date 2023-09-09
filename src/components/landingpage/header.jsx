@@ -3,9 +3,9 @@ import macIcon from "../../assets/mac.png";
 import windowsIcon from "../../assets/windows.png";
 
 export const Header = ({ showDialog, setShowDialog }) => {
-  const macIntel = process.env.REACT_APP_MAC_X64_DMG;
-  const macARM = process.env.REACT_APP_MAC_ARM64_DMG;
-  const windows = process.env.REACT_APP_WIN_EXE;
+  const macIntel = "https://nidhishgajjar.gumroad.com/l/chadappmacintel"; 
+  const macARM = "https://nidhishgajjar.gumroad.com/l/chadappmacsilicon";
+  const windows = "https://nidhishgajjar.gumroad.com/l/chadappmacwindows";
 
   const handleDownload = (url) => {
     window.location.href = url;
@@ -30,7 +30,7 @@ export const Header = ({ showDialog, setShowDialog }) => {
         <h2 className={`text-sm  md:text-xl pt-1 md:pt-2 text-neutral-600`}>
           the easiest way to access ChatGPT Plus subscription from anywhere on your computer.
         </h2>
-        <h2 className={`text-xs  md:text-lg pt-4 md:pt-6 text-neutral-600`}>
+        <h2 className={`text-xs  md:text-md pt-4 md:pt-6 text-neutral-600`}>
           (Bonus - It also makes any web app easily accessible from your desktop)
         </h2>
       </div>

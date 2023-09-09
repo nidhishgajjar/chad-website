@@ -8,7 +8,7 @@ import { VideoSection } from "./video";
 import { QuickSearchSection } from "./qs-section";
 
 export const Body = () => {
-  const videoUrl = process.env.REACT_APP_VIDEO_URL;
+  const videoUrl = "https://chad-distributable.s3.amazonaws.com/trim_E8720173-87FC-4A92-89F9-63B2B4DEE422.mp4";
 
   return (
     <div>

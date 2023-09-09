@@ -10,7 +10,7 @@ export const QuickSearchSection = ({ backgroundColor, textColor, onButtonClick }
       </h2>
       <p
         className={`text-base md:text-lg text-center px-8 md:px-40 mb-8 ${textColor}`}>
-        Use Chad to make your favourite web app easily accessible.
+        Use Chad to make your favourite web apps easily accessible.
         To boost productivity and streamline your workflow.
       </p>
         <button className="bg-gradient-to-tr from-purple-500 via-black to-blue-900 text-2xl hover:opacity-80 text-neutral-50 font-bold py-2 px-4 rounded-3xl focus:outline-none focus:shadow-outline">
