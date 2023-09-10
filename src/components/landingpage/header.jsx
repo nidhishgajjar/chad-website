@@ -3,9 +3,9 @@ import macIcon from "../../assets/mac.png";
 import windowsIcon from "../../assets/windows.png";
 
 export const Header = ({ showDialog, setShowDialog }) => {
-  const macIntel = "https://nidhishgajjar.gumroad.com/l/chadappmacintel"; 
-  const macARM = "https://nidhishgajjar.gumroad.com/l/chadappmacsilicon";
-  const windows = "https://nidhishgajjar.gumroad.com/l/chadappmacwindows";
+  const macIntel = "https://nidhishgajjar.gumroad.com/l/chadapp"; 
+  const macARM = "https://nidhishgajjar.gumroad.com/l/chadapp";
+  const windows = "https://nidhishgajjar.gumroad.com/l/chadapp";
 
   const handleDownload = (url) => {
     window.location.href = url;
